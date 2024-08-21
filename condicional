@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Chaveamento {
+
+	public static void main(String[] args) {
+		Scanner ch = new Scanner(System.in);
+		int inter;
+		System.out.println("Digite um número! ");
+		inter = ch.nextInt();
+		
+		if(inter <= 5) {
+			System.out.println("Ligado: O valor digitado foi: " + inter);
+		} else {
+			System.out.println("Desligado: O valor digitado foi: " + inter);
+		}
+		
+		ch.close();
+	}
+}
